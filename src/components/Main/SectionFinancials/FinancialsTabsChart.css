@@ -1,0 +1,32 @@
+.PrivateTabIndicator-colorSecondary-75 {
+    background: #fff !important;
+}
+.Mui-selected {
+    background: #3d9de8 !important;
+}
+.Mui-selected p {
+    color: #fff;
+}
+.MuiTabs-flexContainerVertical {
+    height: 100%;
+}
+.MuiTabs-indicator {
+    border: 6px solid transparent;
+    border-right: 6px solid white;
+    height: 2px !important;
+    margin-top: 48px;
+    background: none !important;
+}
+
+@media (max-width: 599px) {
+    .MuiTabs-flexContainerVertical {
+        flex-direction: row !important;
+        width: 100%;
+    }
+    .MuiTabs-indicator {
+        display: none;
+    }
+    .MuiGrid-item {
+        margin-bottom: 10px !important;
+    }
+}
